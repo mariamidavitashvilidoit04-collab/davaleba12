@@ -1,0 +1,19 @@
+.projects {
+  height: auto;
+  h2 {
+    font-size: $SizeLarge;
+    color: $PrimaryColor;
+    text-align: center;
+  }
+}
+.card {
+  width: 373px;
+  height: 567px;
+  border: 1px solid pink;
+  border-radius: 10px;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
